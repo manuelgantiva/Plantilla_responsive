@@ -27,63 +27,63 @@ body{
 
 /*-- Estilos para el div header ESTEBAN--*/
 
-div.HeaderESTEBAN{
+div.Header-Esteban{
     height: 50vh;
     background-color: lightblue;
 }
 
 /*-- Estilos para seccion 2 ESTEBAN--*/
 
-section.seccion2ESTEBAN{
+section.seccion2-Esteban{
     height: 100vh;
     background-color: rgb(194, 234, 50);
 }
 
 /*-- Estilos para seccion 3 ESTEBAN--*/
 
-section.seccion3ESTEBAN{
+section.seccion3-Esteban{
     height: 100vh;
     background-color: lightgreen;
 }
 
-/*-- Estilos para seccion 4 --*/
+/*-- Estilos para seccion 4 SOFIA--*/
 
-section.seccion4SOFIA{
+section.seccion4-Sofia{
     height: 100vh;
     background-color: lightslategray;
 }
 
-/*-- Estilos para seccion 5 --*/
+/*-- Estilos para seccion 5 SOFIA--*/
 
-section.seccion5SOFIA{
+section.seccion5-Sofia{
     height: 100vh;
     background-color: rgb(135, 30, 30);
 }
 
-/*-- Estilos para seccion 6 --*/
+/*-- Estilos para seccion 6 JUAN DANIEL--*/
 
-section.seccion6{
+section.seccion6-JuanDaniel{
     height: 100vh;
     background-color: rgb(69, 200, 102);
 }
 
-/*-- Estilos para seccion 7 --*/
+/*-- Estilos para seccion 7 JUAN DANIEL--*/
 
-section.seccion7{
+section.seccion7-JuanDaniel{
     height: 100vh;
     background-color: rgb(228, 69, 188);
 }
 
-/*-- Estilos para seccion 8 --*/
+/*-- Estilos para seccion 8 DANIEL PAREJA--*/
 
-section.seccion8{
+section.seccion8-DanielPareja{
     height: 100vh;
     background-color: rgb(228, 225, 69);
 }
 
-/*-- Estilos para seccion 9 --*/
+/*-- Estilos para seccion 9 DANIEL PAREJA--*/
 
-section.seccion9{
+section.seccion9-DanielPareja{
     height: 100vh;
     background-color: rgb(35, 188, 254);
 }
