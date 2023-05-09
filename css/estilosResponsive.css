@@ -1,0 +1,49 @@
+
+@media (max-width: 920px){
+    /* Estilos responsive Movile */
+    
+    /*-- Estilos responsive para el div header --*/
+    
+        div.Header{
+            height: 100vh;
+            background-color: lightblue;
+        }
+    
+    /*-- Estilos responsive para la seccion 1 --*/
+    
+        section.seccion1{
+            height: 200vh;
+            background-color: lightcoral;
+        }
+    
+    
+    /*-- Estilos responsive para la seccion 2 --*/
+    
+        section.seccion2{
+            height: 200vh;
+            background-color: lightcyan;
+        }
+    
+    /*-- Estilos responsive para la seccion 3 --*/
+    
+        section.seccion3{
+            height: 200vh;
+            background-color: lightgreen;
+        }
+    
+    /*-- Estilos responsive para la seccion 4 --*/
+    
+        section.seccion4{
+            height: 200vh;
+            background-color: lightslategray;
+        }
+    
+    /*-- Estilos responsive para Footer --*/
+    
+        footer{
+            height: 100vh;
+            background-color: lime;
+        }
+    
+    }
+    
