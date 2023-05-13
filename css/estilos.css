@@ -27,9 +27,9 @@ body{
     background-color: #f5f5f5;
 }
 
-/*-- Estilos para el div header --*/
+/*-- Estilos para el div header / seccion 0 --*/
 
-div.Header{
+section.Header{
     height: 100vh;
     background-color: lightblue;
 }
@@ -55,11 +55,17 @@ section.seccion3{
     background-color: lightgreen;
 }
 
-/*-- Estilos para seccion 5 --*/
+/*-- Estilos para seccion 4 --*/
 
 section.seccion4{
     height: 100vh;
     background-color: lightslategray;
+}
+/*-- Estilos para seccion 5 --*/
+
+section.seccion5{
+    height: 100vh;
+    background-color: lightseagreen;
 }
 
 /*-- Estilos para el Footer --*/
@@ -107,6 +113,13 @@ footer{
     section.seccion4{
         height: 200vh;
         background-color: lightslategray;
+    }
+
+/*-- Estilos responsive para la seccion 5 --*/
+
+    section.seccion5{
+        height: 200vh;
+        background-color: lightseagreen;
     }
 
 /*-- Estilos responsive para Footer --*/
