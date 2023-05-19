@@ -55,7 +55,7 @@ section.seccion2 > h2{
     display: flex;
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 9vh;
+    font-size: 50px;
     justify-content: center;
     /*border: dotted black;*/
 }
@@ -148,6 +148,50 @@ footer{
     section.seccion2{
         height: 200vh;
         background-color: #2C1E4A;
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.seccion2 > h2{
+        display: flex;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 60px;
+        justify-content: center;
+        border: dotted black;
+    }
+    
+    section.contenido{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        border: dotted red;
+    }
+    section.contenido > article{
+        height: 50vh;
+        width: 40vh;
+        flex-shrink: 3;
+        flex-wrap: wrap;
+        flex-direction: column;
+        border: dotted black;
+        display: flex;
+        align-self: center;
+    }
+    section.contenido > article > section{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        border: dotted green;
+    }
+    section.contenido > article > section.pregunta{
+        height: 40%;
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        background-color: #D73CBE;
+        border: dotted rgb(43, 104, 128);
     }
 
 /*-- Estilos responsive para la seccion 3 --*/
