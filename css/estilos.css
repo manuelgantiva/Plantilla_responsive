@@ -28,6 +28,10 @@ body{
     background-color: #000000;
 }
 
+section{
+    height: 100vh;
+}
+
 /*-- Estilos para el div header --*/
 
 header{
@@ -37,25 +41,36 @@ header{
 /*-- Estilos para seccion 1 --*/
 
 section.seccion1{
-    height: 100vh;
 }
 
 /*-- Estilos para seccion 2 --*/
 
 section.seccion2{
-    height: 100vh;
 }
 
 /*-- Estilos para seccion 3 --*/
 
 section.seccion3{
-    height: 100vh;
+}
+
+/*-- Estilos para seccion 4 --*/
+
+section.seccion4{
 }
 
 /*-- Estilos para seccion 5 --*/
 
-section.seccion4{
-    height: 100vh;
+section.seccion5{
+}
+
+/*-- Estilos para seccion 6 --*/
+
+section.seccion6{
+}
+
+/*-- Estilos para seccion 7 --*/
+
+section.seccion7{
 }
 
 /*-- Estilos para el Footer --*/
@@ -67,7 +82,9 @@ footer{
 
 @media (max-width: 920px){
 /* Estilos responsive Movile */
-
+    section{
+        height: 200vh;
+    }
 /*-- Estilos responsive para el div header --*/
 
     header{
@@ -77,27 +94,36 @@ footer{
 /*-- Estilos responsive para la seccion 1 --*/
 
     section.seccion1{
-        height: 200vh;
     }
-
 
 /*-- Estilos responsive para la seccion 2 --*/
 
     section.seccion2{
-        height: 200vh;
-
     }
 
 /*-- Estilos responsive para la seccion 3 --*/
 
     section.seccion3{
-        height: 200vh;
     }
 
 /*-- Estilos responsive para la seccion 4 --*/
 
     section.seccion4{
-        height: 200vh;
+    }
+
+/*-- Estilos responsive para la seccion 5 --*/
+
+    section.seccion5{
+    }
+
+/*-- Estilos responsive para la seccion 6 --*/
+
+    section.seccion6{
+    }
+
+/*-- Estilos responsive para la seccion 7 --*/
+
+    section.seccion7{
     }
 
 /*-- Estilos responsive para Footer --*/
