@@ -31,7 +31,7 @@ body{
 
 section.Header{
     height: 100vh;
-    background-image:  url("/images/s.jpg");
+    background-image:  url("/images/sflip.jpg");
     background-size: cover;
 }
 
@@ -39,7 +39,7 @@ section.Header{
 
 section.seccion1{
     height: 100vh;
-    background-image:  url("/images/sflip.jpg");
+    background-image:  url("/images/s.jpg");
     background-size: cover;
 }
 
@@ -47,7 +47,7 @@ section.seccion1{
 
 section.seccion2{
     height: 100vh;
-    background-image:  url("/images/s.jpg");
+    background-image:  url("/images/sflip.jpg");
     background-size: cover;
 }
 
@@ -55,7 +55,7 @@ section.seccion2{
 
 section.seccion3{
     height: 100vh;
-    background-image:  url("/images/sflip.jpg");
+    background-image:  url("/images/s.jpg");
     background-size: cover;
 }
 
@@ -63,14 +63,14 @@ section.seccion3{
 
 section.seccion4{
     height: 100vh;
-    background-image:  url("/images/s.jpg");
+    background-image:  url("/images/sflip.jpg");
     background-size: cover;
 }
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
     height: 100vh;
-    background-image:  url("/images/sflip.jpg");
+    background-image:  url("/images/s.jpg");
     background-size: cover;
 }
 
@@ -78,7 +78,7 @@ section.seccion5{
 
 footer{
     height: 100vh;
-    background-image:  url("/images/s.jpg");
+    background-image:  url("/images/sflip.jpg");
     background-size: cover;
 }
 
