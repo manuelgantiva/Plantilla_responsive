@@ -1,20 +1,21 @@
 
 /*pagina de estilos*/
 
-/*-- Estilos base y rest para toda la pagina --*/
+/*-- Estilos base y rest para toda la pagina --*
 
 html {
     box-sizing: border-box;
     font-size: 14px;
     font-family: arial;
     scroll-behavior: smooth;
-}
+}--*/
 
 *{
-    text-decoration: none;
-    list-style: none;
-    margin: 0;
-    padding: 0;
+    /*--text-decoration: none;
+    list-style: none;--*/
+    color: #ffffff;
+    /*--margin: 0;
+    padding: 0;--*/
 }
 
 *,
@@ -24,45 +25,45 @@ html {
 }
 
 body{
-    background-color: #f5f5f5;
+    background-color: #000000;
 }
-
-/*-- Estilos para el div header --*/
+/*--
+/*-- Estilos para el div header --*
 
 div.Header{
     height: 100vh;
     background-color: lightblue;
 }
 
-/*-- Estilos para seccion 1 --*/
+/*-- Estilos para seccion 1 --*
 
 section.seccion1{
     height: 100vh;
     background-color: lightcoral;
 }
 
-/*-- Estilos para seccion 2 --*/
+/*-- Estilos para seccion 2 --*
 
 section.seccion2{
     height: 100vh;
     background-color: lightcyan;
 }
 
-/*-- Estilos para seccion 3 --*/
+/*-- Estilos para seccion 3 --*
 
 section.seccion3{
     height: 100vh;
     background-color: lightgreen;
 }
 
-/*-- Estilos para seccion 5 --*/
+/*-- Estilos para seccion 5 --*
 
 section.seccion4{
     height: 100vh;
     background-color: lightslategray;
 }
 
-/*-- Estilos para el Footer --*/
+/*-- Estilos para el Footer --*
 
 footer{
     height: 100vh;
@@ -71,16 +72,16 @@ footer{
 
 
 @media (max-width: 920px){
-/* Estilos responsive Movile */
+/* Estilos responsive Movile *
 
-/*-- Estilos responsive para el div header --*/
+/*-- Estilos responsive para el div header --*
 
     div.Header{
         height: 100vh;
         background-color: lightblue;
     }
 
-/*-- Estilos responsive para la seccion 1 --*/
+/*-- Estilos responsive para la seccion 1 --*
 
     section.seccion1{
         height: 200vh;
@@ -88,32 +89,31 @@ footer{
     }
 
 
-/*-- Estilos responsive para la seccion 2 --*/
+/*-- Estilos responsive para la seccion 2 --*
 
     section.seccion2{
         height: 200vh;
         background-color: lightcyan;
     }
 
-/*-- Estilos responsive para la seccion 3 --*/
+/*-- Estilos responsive para la seccion 3 --*
 
     section.seccion3{
         height: 200vh;
         background-color: lightgreen;
     }
 
-/*-- Estilos responsive para la seccion 4 --*/
+/*-- Estilos responsive para la seccion 4 --*
 
     section.seccion4{
         height: 200vh;
         background-color: lightslategray;
     }
 
-/*-- Estilos responsive para Footer --*/
+/*-- Estilos responsive para Footer --*
 
     footer{
         height: 100vh;
         background-color: lime;
     }
-
-}
+--*/
