@@ -31,48 +31,55 @@ body{
 
 section.Header{
     height: 100vh;
-    background-color: lightblue;
+    background-image:  url("/images/s.jpg");
+    background-size: cover;
 }
 
 /*-- Estilos para seccion 1 --*/
 
 section.seccion1{
     height: 100vh;
-    background-color: lightcoral;
+    background-image:  url("/images/sflip.jpg");
+    background-size: cover;
 }
 
 /*-- Estilos para seccion 2 --*/
 
 section.seccion2{
     height: 100vh;
-    background-color: lightcyan;
+    background-image:  url("/images/s.jpg");
+    background-size: cover;
 }
 
 /*-- Estilos para seccion 3 --*/
 
 section.seccion3{
     height: 100vh;
-    background-color: lightgreen;
+    background-image:  url("/images/sflip.jpg");
+    background-size: cover;
 }
 
 /*-- Estilos para seccion 4 --*/
 
 section.seccion4{
     height: 100vh;
-    background-color: lightslategray;
+    background-image:  url("/images/s.jpg");
+    background-size: cover;
 }
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
     height: 100vh;
-    background-color: lightseagreen;
+    background-image:  url("/images/sflip.jpg");
+    background-size: cover;
 }
 
 /*-- Estilos para el Footer --*/
 
 footer{
     height: 100vh;
-    background-color: lime;
+    background-image:  url("/images/s.jpg");
+    background-size: cover;
 }
 
 
@@ -83,14 +90,16 @@ footer{
 
     div.Header{
         height: 100vh;
-        background-color: lightblue;
+        background-image:  url("/images/s.jpg");
+        background-size: cover;
     }
 
 /*-- Estilos responsive para la seccion 1 --*/
 
     section.seccion1{
         height: 200vh;
-        background-color: lightcoral;
+        background-image:  url("/images/sflip.jpg");
+        background-size: cover;
     }
 
 
@@ -98,35 +107,40 @@ footer{
 
     section.seccion2{
         height: 200vh;
-        background-color: lightcyan;
+        background-image:  url("/images/s.jpg");
+        background-size: cover;
     }
 
 /*-- Estilos responsive para la seccion 3 --*/
 
     section.seccion3{
         height: 200vh;
-        background-color: lightgreen;
+        background-image:  url("/images/sflip.jpg");
+        background-size: cover;
     }
 
 /*-- Estilos responsive para la seccion 4 --*/
 
     section.seccion4{
         height: 200vh;
-        background-color: lightslategray;
+        background-image:  url("/images/s.jpg");
+        background-size: cover;
     }
 
 /*-- Estilos responsive para la seccion 5 --*/
 
     section.seccion5{
         height: 200vh;
-        background-color: lightseagreen;
+        background-image:  url("/images/sflip.jpg");
+        background-size: cover;
     }
 
 /*-- Estilos responsive para Footer --*/
 
     footer{
         height: 100vh;
-        background-color: lime;
+        background-image:  url("/images/s.jpg");
+        background-size: cover;
     }
 
 }
