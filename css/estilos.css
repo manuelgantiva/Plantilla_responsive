@@ -52,17 +52,73 @@ section.seccion3{
 
 /*-- Estilos para seccion 4 --*/
 
-section.seccion4{
+section.seccion4 
+{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;
 }
+section.seccion4 h1 
+{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    width: 75vh;
+    height: 30vh;
+    font-size: 8vh;
+    color: #623E2A;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 15vh;
+}
+section.seccion4 aside 
+{
+    margin-top: 15vh;
+    display:flex;
+    width: 117vh;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
 
+}
+section.seccion4 img 
+{
+    width: 85vh;
+    height: 50vh;
+}
+section.seccion4 p
+{
+    margin-top: 3vh;
+    display: flex;
+    margin-left: 15vh;
+    margin-bottom: 15vh;
+    color: #623E2A;
+    font-size: 2vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+section.seccion4 aside2
+{
+    margin-left: 35vh;
+    margin-bottom: 15vh;
+    border: 2px double black;
+    display:flex;
+    width: 86vh;
+    justify-content: center;
+    align-items: center;
 
+}
+section.seccion4 p1
+{
+    color: #623E2A;
+    font-size: 1.8vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;    
 }
 
 
