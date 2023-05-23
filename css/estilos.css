@@ -64,14 +64,42 @@ section.seccion5-Sofia{
 
 section.seccion6-JuanDaniel{
     height: 100vh;
-    background-color: rgb(69, 200, 102);
+    background-image: url(../fondo6.png);
+}
+.diap6{
+    display: flex;
+    flex-wrap: wrap;
+}
+.title1{
+    color:transparent;
+    background-image: url(https://media.giphy.com/media/IbekjrW43xz0XNtpe0/giphy.gif);
+    font-size: 80px;
+    text-align:center;
+    margin-top: 50px;
+    font-weight: 500;
+    background-position:center;
+    -webkit-background-clip: text;
 }
 
 /*-- Estilos para seccion 7 JUAN DANIEL--*/
 
 section.seccion7-JuanDaniel{
     height: 100vh;
-    background-color: rgb(228, 69, 188);
+    background-image: url(../fondo7.png);
+}
+.imagen_vortex2{
+    background-image:url(../vortice2.gif) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.color{
+    color:aqua;
 }
 
 /*-- Estilos para seccion 8 DANIEL PAREJA--*/
@@ -92,19 +120,5 @@ section.seccion9-DanielPareja{
 footer{
     height: 30vh;
     background-color: lime;
-}
-.imagen_vortex{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 900px;
-}
-.diap6{
-    display: flex;
-    flex-wrap: wrap;
-}
-.color{
-    color:#f5f5f5;
 }
 
