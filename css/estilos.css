@@ -4,7 +4,7 @@
 /*-- Estilos base y rest para toda la pagina --*/
 @font-face {
     font-family: "FuenteMela";
-    src: url(../fonts/CocoGothic-Light_trial.ttf) format("truetype");
+    src: url(../fonts/CocoGothic_trial.ttf) format("truetype");
 }
 
 @font-face {
@@ -86,7 +86,36 @@ section.seccion1 button{
 
 section.seccion2{
     height: 100vh;
-    background-color: lightcyan;
+    background-color: #f4f1ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+section.seccion2 h2{
+    font-family: "FuenteMela2", sans-serif;
+    font-size: 11vh;
+    font-weight: lighter;
+    line-height: 0.9;
+    color: #623e2a;
+}
+section.seccion2 p{
+    font-family: "FuenteMela", sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-right: 10vh;
+    line-height: 1.4;
+}
+section.seccion2 article{
+    color: #623e2a;
+    margin: 6vw;
+    align-content: center;
+}
+section.seccion2 img{
+    height: 80vh;
+    width: 60vh;
+    margin-right: 5vw;
+    object-fit: cover;
 }
 
 /*-- Estilos para seccion 3 --*/
