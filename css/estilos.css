@@ -104,6 +104,29 @@ section.seccion3{
     height: 100vh;
     background-image:  url("/images/s.jpg");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section.seccion3 > h2{
+    margin-left: 20%;
+    color: white;
+    align-self: flex-start;
+    font-size: xx-large;
+}
+section.seccion3 > section{
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+section.seccion3 > section > article{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+}
+section.seccion3 > section > article > p{
+    color: white;
 }
 
 /*-- Estilos para seccion 4 --*/
