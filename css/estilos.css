@@ -31,10 +31,23 @@ body{
 
 section.Header {
     height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    font-family: "TT Interphases", sans-serif;
+    color: #f5f5f5;
 }
-section.Header nav{
+section.Header > nav > h1{
+    font-size: 13.7px; 
+}
+section.Header > header > h1{
     font-family: "Lastica", sans-serif;
+    font-size: 56px;  
 }
+section.Header > header > h4{
+    font-size: 26px;
+}
+
 
 /*-- Estilos para seccion 1 --*/
 
@@ -62,6 +75,17 @@ section.seccion3{
 section.seccion4{
     height: 100vh;
     background-color: lightslategray;
+    font-family: "TT Interphases", sans-serif;
+    font-size: 14px;
+    color: #f5f5f5;
+}
+section.seccion4 > h2{
+    font-family: "Lastica", sans-serif;
+    font-size: 36px;
+}
+
+section.seccion4 > h5{
+    color: #D73CBE;
 }
 /*-- Estilos para seccion 5 --*/
 
@@ -75,15 +99,38 @@ section.seccion5{
 footer{
     height: 100vh;
     background-color: lime;
+    color:#f5f5f5;
+    font-family: "TT Interphases", sans-serif;
+    font-size: 18px;
 }
-
+footer > h3{
+    font-family: "Lastica", sans-serif;
+}
+footer > h2{
+    font-size: 36px;
+}
+footer > h1{
+    font-family: "Inter", sans-serif;
+    font-size: 70px;
+}
+footer > h6{
+    font-family: "Helios", sans-serif;
+    font-size: 13px; 
+}
+footer > p{
+    font-family: "Public Sans Thin", sans-serif;
+}
+footer > h5{
+    font-family: "Neue Mchina Light", sans-serif;
+    font-size: 12px;
+}
 
 @media (max-width: 920px){
 /* Estilos responsive Movile */
 
 /*-- Estilos responsive para el div header --*/
 
-    div.Header{
+    section.Header{
         height: 100vh;
         background-color: lightblue;
     }
