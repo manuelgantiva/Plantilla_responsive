@@ -68,10 +68,26 @@ section.seccion6-JuanDaniel{
 }
 .diap6{
     margin: 60px;;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    align-content: stretch;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 20px; 
+}
+.color2{
+    color: transparent;
+}
+.numero{
+    font-family: sans-serif;
+    text-align:center;
+    margin-top: 50px;
+    font-size: 80px;
+    font-weight: 500;
+    color:transparent;
+    background-image: url(https://media.giphy.com/media/UR6ZXKs8bKhuU/giphy.gif);
+    background-position:center;
+    -webkit-background-clip: text;
 }
 .title1{
     font-family: sans-serif;
@@ -84,9 +100,7 @@ section.seccion6-JuanDaniel{
     background-position:center;
     -webkit-background-clip: text;
 }
-
 /*-- Estilos para seccion 7 JUAN DANIEL--*/
-
 section.seccion7-JuanDaniel{
     height: 100vh;
     background-image: url(../fondo7.png);
@@ -104,7 +118,6 @@ section.seccion7-JuanDaniel{
 }
 .diap7{
     margin: 60px;;
-    padding: 0;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -113,7 +126,6 @@ section.seccion7-JuanDaniel{
 .color{
     color:#f5f5f5;
 }
-
 /*-- Estilos para seccion 8 DANIEL PAREJA--*/
 
 section.seccion8-DanielPareja{
