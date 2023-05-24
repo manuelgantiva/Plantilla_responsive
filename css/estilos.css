@@ -29,9 +29,11 @@ body{
 
 /*-- Estilos para el div header / seccion 0 --*/
 
-section.Header{
+section.Header {
     height: 100vh;
-    background-color: lightblue;
+}
+section.Header nav{
+    font-family: "Lastica", sans-serif;
 }
 
 /*-- Estilos para seccion 1 --*/
