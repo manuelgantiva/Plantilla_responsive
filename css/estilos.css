@@ -213,7 +213,98 @@ article.tres > h3,article.tres >p,article.tres >ul{
 
 /*-- Estilos para seccion 5 SOFIA--*/
 
+section.seccion5-Sofia{
+    height: 100vh;
+    background-image:url("backDiap5.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
 
+/*div.transparencia2{
+    background-color: rgba(17, 16, 16, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}*/
+
+article.titulo2 >h1{
+    color: white;
+    align-self: flex-start;
+    font-family: Arial;
+    margin: 9%;
+    font-size: 500%;
+}
+
+article.primero >h3,article.primero >ul,article.primero >li {
+    color: white;
+    font-family: Arial;
+    font-size: 100%;
+    margin-top: 3%;
+}
+
+article.segundo >h3,article.segundo >ul,article.segundo >li{
+    color: white;
+    font-family: Arial;
+    font-size: 100%;
+    margin-top: 3%;
+}
+
+article.tercero >h3,article.tercero >ul,article.tercero >li{
+    color: white;
+    font-family: Arial;
+    font-size: 100%;
+    margin-top: 3%;
+}
+
+article.cuarto >h3,article.cuarto >ul,article.cuarto >li{
+    color: white;
+    font-family: Arial;
+    font-size: 100%;
+    margin-top: 3%;
+}
+
+div.cuadro1{
+    background-color: rgba(9, 9, 104, 0.5);
+    width: 200%;
+    height: 20%;
+    border-radius: 6%;
+    transform: translateX(-0px) translateY(250px);
+    margin: 3px;
+    padding: 1%;
+}
+
+div.cuadro2{
+    background-color: rgba(9, 9, 104, 0.5);
+    width: 200%;
+    height: 20%;
+    border-radius: 6%;
+    transform: translateX(-290px) translateY(500px);
+    margin-top: -20px;
+    padding: 1%;
+}
+
+div.cuadro3{
+    background-color: rgba(9, 9, 104, 0.5);
+    width: 200%;
+    height: 20%;
+    border-radius: 6%;
+    transform: translateX(-65px) translateY(500px);
+    margin-top: -20px;
+    padding: 1%;
+}
+
+div.cuadro4{
+    background-color: rgba(9, 9, 140, 0.5);
+    width: 200%;
+    height: 20%;
+    border-radius: 6%;
+    transform: translateX(-350px) translateY(270px);
+    margin-top: -20px;
+    padding: 1%;
+}
 
 /*-- Estilos para seccion 6 JUAN DANIEL--*/
 
