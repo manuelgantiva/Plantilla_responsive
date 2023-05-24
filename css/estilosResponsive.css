@@ -1,0 +1,76 @@
+
+@media (max-width: 920px){
+    /* Estilos responsive Movile */
+    
+    /*-- Estilos responsive para el div header --*/
+    
+/*-- Estilos responsive para el div header ESTEBAN--*/
+        div.Header-Esteban{
+            height: 80vh;
+            background-color: lightblue;
+        }
+
+        /*-- Estilos responsive para seccion 2 ESTEBAN--*/
+
+        section.seccion2-Esteban{
+            height: 200vh;
+            background-color: rgb(194, 234, 50);
+        }
+
+        /*-- Estilos responsive para seccion 3 ESTEBAN--*/
+
+        section.seccion3-Esteban{
+            height: 200vh;
+            background-color: lightgreen;
+        }
+
+        /*-- Estilos responsive para seccion 4 SOFIA--*/
+
+        section.seccion4-Sofia{
+            height: 200vh;
+            background-color: lightslategray;
+        }
+
+        /*-- Estilos responsive para seccion 5 SOFIA--*/
+
+        section.seccion5-Sofia{
+            height: 200vh;
+            background-color: rgb(135, 30, 30);
+        }
+
+        /*-- Estilos responsive para seccion 6 JUAN DANIEL--*/
+
+        section.seccion6-JuanDaniel{
+            height: 200vh;
+            background-color: rgb(69, 200, 102);
+        }
+
+        /*-- Estilos responsive para seccion 7 JUAN DANIEL--*/
+
+        section.seccion7-JuanDaniel{
+            height: 200vh;
+            background-color: rgb(228, 69, 188);
+        }
+
+        /*-- Estilos responsive para seccion 8 DANIEL PAREJA--*/
+
+        section.seccion8-DanielPareja{
+            height: 200vh;
+            background-color: rgb(228, 225, 69);
+        }
+
+        /*-- Estilos responsive para seccion 9 DANIEL PAREJA--*/
+
+        section.seccion9-DanielPareja{
+            height: 200vh;
+            background-color: rgb(35, 188, 254);
+        }
+        /*-- Estilos responsive para el Footer --*/
+
+        footer{
+            height: 60vh;
+            background-color: lime;
+        }
+
+    }
+    
