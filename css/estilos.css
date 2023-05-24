@@ -85,6 +85,9 @@ section.contenido > article > section{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    padding: 40px 40px;
+    /*justify-content: center;
+    align-content: center;*/
     background-color: white;
     /*border: dotted green;*/
 }
@@ -94,6 +97,9 @@ section.contenido > article > section.pregunta{
     flex-wrap: wrap;
     display: flex;
     background-color: #D73CBE;
+    padding: 40px 40px;
+    /*justify-content: center;
+    align-content: center;*/
     /*border: dotted rgb(43, 104, 128);*/
 }
 
@@ -127,6 +133,7 @@ section.seccion3 > section > article{
 }
 section.seccion3 > section > article > p{
     color: white;
+    word-wrap: break-word;
 }
 
 /*-- Estilos para seccion 4 --*/
@@ -141,9 +148,51 @@ section.seccion4{
 /*-- Lugo --*/
 
 section.seccion5{
+    color: white;
     height: 100vh;
+    display: flex;
+    flex-direction: row;
     background-image:  url("/images/s.jpg");
     background-size: cover;
+}
+section.seccion5 > section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 70px;
+    align-items: center;
+}
+section.seccion5 > section > article:first-child{
+    display: flex;
+    justify-items: center;
+    padding: 30px;
+    flex-direction: column;
+    row-gap: 40px;
+    width: 35%;
+    border-color: white;
+    border-style: solid;
+}
+section.seccion5 > section > article > button{
+    height: 30px;
+    width: 180px;
+    background-color: #D73CBE;
+    color: white;
+    border-color: #D73CBE;
+    border-radius: 10px;
+}
+article.video{
+    /*imagen atras del video*/
+    background-image: url("/images/pelotagif1.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    min-height: 450px;
+    border: none;
+
+}
+iframe{
+    /*radio al video*/
+    border-radius: 50%;
 }
 
 /*-- Estilos para el Footer --*/
