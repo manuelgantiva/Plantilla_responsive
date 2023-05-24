@@ -61,9 +61,11 @@ section.seccion1>main{
 }
 section.seccion1>main>h2{
     font-family: Lastica;
+    font-size: 4em;
 }
 section.seccion1>main>p{
     font-family: Anonymous Pro;
+    font-size: 165%;
 }
 /*-- Estilos para seccion 2 --*/
 
