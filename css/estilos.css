@@ -2,7 +2,14 @@
 /*pagina de estilos*/
 
 /*-- Estilos base y rest para toda la pagina --*/
-
+@font-face {
+    font-family: "FuenteMela2";
+    src: url(../fonts/CatchyMager-Normal.ttf)format("truetype");
+}
+@font-face {
+    font-family: "FuenteMela";
+    src: url(../fonts/Coco-Gothic-Regular-trial.ttf)format("truetype");
+}
 html {
     box-sizing: border-box;
     font-size: 14px;
@@ -68,7 +75,7 @@ section.seccion4 h1
     height: 30vh;
     font-size: 8vh;
     color: #623E2A;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "FuenteMela2";
     margin-left: 15vh;
 }
 section.seccion4 aside 
@@ -94,7 +101,7 @@ section.seccion4 p
     margin-bottom: 15vh;
     color: #623E2A;
     font-size: 2vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"FuenteMela";
 }
 section.seccion4 aside2
 {
@@ -111,16 +118,64 @@ section.seccion4 p1
 {
     color: #623E2A;
     font-size: 1.8vh;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:"FuenteMela";
     text-align: center;
 }
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
     height: 100vh;
-    background-color: #f4f1ed;    
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;  
+}
+section.seccion5 aside
+{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 20vh;
+    height: 70vh;
+}
+section.seccion5 aside1
+{
+    display: flex;
+    margin-top: 7vh;
+    height: 70vh;
+    margin-bottom: 7vh;
+    margin-left: 20vh;
+    margin-right: 8vh;
+    
 }
 
+section.seccion5 p 
+{
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 20vh;
+    margin-bottom: 7vh;
+    width: 53vh;
+    font-family:"FuenteMela";
+    color: #623E2A;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.seccion5 p1
+{
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 9vh;
+    margin-bottom: 7vh;
+    height: 10vh;
+    width: 103vh;
+    font-family:"FuenteMela";
+    color: #623E2A;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 /*-- Estilos para seccion 6 --*/
 
