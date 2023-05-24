@@ -50,15 +50,170 @@ section.seccion3-Esteban{
 
 section.seccion4-Sofia{
     height: 100vh;
-    background-color: lightslategray;
+    background-image:url("backDiap4.jpg");
+    display: flex;
+    flex-flow: row-reverse;
+    flex-wrap: nowrap;
+}
+div.transparencia{
+    background-color: rgba(17, 16, 16, 0.5);
+    width: 60%;
+    height: 100%;
+    display: flexbox;
+}
+div.elQueEmpuja{
+    width: 40%;
+    height: 10%;
+    display:flexbox;
+}
+
+div.burbuja{
+    position: absolute;
+    margin: -10%;
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 0 0 25px rgba(255,255,255,025);
+    border-radius: 50%;
+    animation: animate 8s ease-in-out infinite;
+}
+@keyframes animate{
+    0%,100%
+    {
+        transform:translateX(-300px);
+    }
+    50%
+    {
+        transform:translateX(-100px);
+        transform:translateY(200px);
+    }
+}
+
+div.burbuja::before{
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 45px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #641ce1;
+    z-index: 10;
+    filter: blur(2px);
+    animation: animate 8s ease-in-out infinite;
+}
+
+div.burbuja::after{
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3620f7;
+    z-index: 10;
+    filter: blur(2px);
+    animation: animate 8s ease-in-out infinite;
+}
+
+div.burbuja span{
+    position: absolute;
+    border-radius: 80%;
+    
+}
+div.burbuja span:nth-child(1){
+    border-left: 15px solid#0f0cca;
+    inset: 10px;
+    filter: blur(8px);
+}
+
+div.burbuja span:nth-child(2){
+    border-right: 10px solid #ff4484;
+    inset: 10px;
+    filter: blur(8px);
+}
+
+div.burbuja::after{
+    content: '';
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #3620f7;
+    z-index: 10;
+    filter: blur(2px);
+    animation: animate 8s ease-in-out infinite;
+}
+
+div.burbuja span{
+    position: absolute;
+    border-radius: 80%;
+    
+}
+div.burbuja span:nth-child(1){
+    border-left: 15px solid#0f0cca;
+    inset: 10px;
+    filter: blur(8px);
+}
+
+div.burbuja span:nth-child(2){
+    border-right: 10px solid #ff4484;
+    inset: 10px;
+    filter: blur(8px);
+}
+div.burbuja span:nth-child(3){
+    border-top: 10px solid #c031f9;
+    inset: 20px;
+    filter: blur(8px);
+}
+
+div.burbuja span:nth-child(4){
+    border-bottom: 10px solid #fbfbfa;
+    inset: 10px;
+    filter: blur(8px);
+    transform: rotate(330deg);
+}
+
+article.titulo > h1{
+    color: white;
+    text-indent: 21%;
+    align-self: flex-end;
+    font-family: Arial;
+    margin-top: 9%;
+    font-size: 500%;
+}
+
+article.uno >h3,article.uno > p,article.uno >ul{
+    color: white;
+    font-family: Arial;
+    font-size: 180%;
+    margin-left: 3%;
+    margin-top: 3%;
+    align-self: flex-end;
+}
+
+article.dos > h3,article.dos >p,article.dos>ul{
+    color: white;
+    font-family: Arial;
+    font-size: 180%;
+    margin-left: 3%;
+    margin-top: 3%;
+    align-self: flex-end;
+}
+article.tres > h3,article.tres >p,article.tres >ul{
+    color: white;
+    font-family: Arial;
+    font-size: 180%;
+    margin-left: 3%;
+    margin-top: 3% ;
+    align-self: flex-end;
 }
 
 /*-- Estilos para seccion 5 SOFIA--*/
 
-section.seccion5-Sofia{
-    height: 100vh;
-    background-color: rgb(135, 30, 30);
-}
+
 
 /*-- Estilos para seccion 6 JUAN DANIEL--*/
 
