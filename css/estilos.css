@@ -55,6 +55,7 @@ h1{
     text-align: center;
     padding-top: 50px;
     color: #623E2A;
+    font-family: 'Catchy Mager',serif;
 }
 
 .card-container{
@@ -69,7 +70,7 @@ h1{
     width: 30%;
     padding: 10px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 2z0px;
     margin-left: 65px;
 }
 .card img {
@@ -85,14 +86,17 @@ h1{
 .seccion3 h3{
     margin-top: 20px;
     margin-left: 15px;
+    font-family: 'Coco Gothic',sans-serif;
 }
 .seccion3 h2{
     margin-top: 30px;
     margin-left: 15px;
+    font-family: 'Coco Gothic',serif;
 }
 .seccion3 p{
     margin-top: 15px;
     margin-left: 15px;
+    font-family: 'Coco Gothic',serif;
 }
 /*-- Estilos para seccion 4 --*/
 
