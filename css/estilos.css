@@ -45,11 +45,55 @@ section.seccion2{
 
 section.seccion3{
     height: 100vh;
-    background-color: lightgreen;
+    background: #EFEBE5;
+}
+.section3{
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    color: #623E2A;
 }
 
-
-
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.card img {
+    height: 300 px;
+    width: 250 px;
+}
+.text-box{
+    margin-top: 10px;
+    border:1px solid #623E2A;
+    color: #623E2A;
+    height: 150px;
+}
+.seccion3 h3{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.seccion3 h2{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.seccion3 p{
+    margin-top: 15px;
+    margin-left: 15px;
+}
 /*-- Estilos para seccion 4 --*/
 
 section.seccion4{
@@ -113,9 +157,9 @@ section.seccion8{
 
     section.seccion3{
         height: 100vh;
-        background-color: lightgreen;
+        background-color: black;
     }
-
+    
 
 
     /*-- Estilos responsive para seccion 4 --*/
