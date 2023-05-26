@@ -127,7 +127,7 @@ section.seccion3{
 .section3{
     text-align: center;
 }
-h1{
+section.seccion3 h1{
     font-size: 80px;
     text-align: center;
     padding-top: 50px;
