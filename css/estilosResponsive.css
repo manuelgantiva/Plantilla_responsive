@@ -34,8 +34,7 @@
         /*-- Estilos responsive para seccion 5 SOFIA--*/
 
         section.seccion5-Sofia{
-            height: 200vh;
-            background-color: rgb(135, 30, 30);
+            flex-wrap: wrap;
         }
 
         /*-- Estilos responsive para seccion 6 JUAN DANIEL--*/

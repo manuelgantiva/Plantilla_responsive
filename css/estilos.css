@@ -221,14 +221,14 @@ section.seccion5-Sofia{
     display: flex;
 }
 
-/*div.transparencia2{
+div.transparencia2{
     background-color: rgba(17, 16, 16, 0.5);
     width: 100%;
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
-}*/
+}
 
 article.titulo2 >h1{
     color: white;
