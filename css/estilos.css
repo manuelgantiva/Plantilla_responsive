@@ -61,16 +61,79 @@ section.seccion4{
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section.seccion5 p{
+    max-width: 70vh;
+}
+
+section.seccion5 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+section.seccion5 div p{
+    color: #A6A6A6;
 }
 
 /*-- Estilos para seccion 6 --*/
 
 section.seccion6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.seccion6 div{
+    display: flex;
+    justify-content: center;
+}
+
+section.seccion6 div p{
+    max-width: 25vh;
+}
+
+section.seccion6 div article{
+    margin: 0vh 5vh;
+}
+
+section.seccion6 p:nth-child(2){
+    max-width: 65vh;
+    text-align: center;
+    color: #A6A6A6;
 }
 
 /*-- Estilos para seccion 7 --*/
 
 section.seccion7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.seccion7 div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section.seccion7 div article{
+    margin: 0vh 15vh;
+}
+
+section.seccion7 p:nth-child(2){
+    max-width: 65vh;
+    text-align: center;
+    color: #A6A6A6;
+}
+
+section.seccion7 div h3{
+    max-width: 40vh;
 }
 
 /*-- Estilos para el Footer --*/
