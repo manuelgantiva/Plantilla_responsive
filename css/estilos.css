@@ -127,7 +127,7 @@ section.seccion3{
 .section3{
     text-align: center;
 }
-h1{
+section.seccion3 h1{
     font-size: 80px;
     text-align: center;
     padding-top: 50px;
@@ -335,12 +335,10 @@ section.seccion6{
     border:1px solid #623E2A;
     color: #623E2A;
     height: 150px;
-}
-
-.seccion6 h3{
+section.seccion6 h3
+{
     margin-top: 20px;
-    font-family: 'Coco Gothic',sans-serif;
-    
+    font-family: 'Coco Gothic',sans-serif; 
 }
 
 .seccion6 p{
@@ -368,9 +366,8 @@ section.seccion7ParteUno
     font-size: 35px;
     align-items: center;
     justify-content: center;
+
 }
-
-
 section.seccion7ParteDos
 {
     display: grid;
@@ -533,9 +530,7 @@ section.seccion8ParteDos > article > ul > li > img
     section.seccion3{
         height: 100vh;
         background-color: black;
-    }
-    
-
+  }
 
    /* Estilos responsive para seccion 4 */
   section.seccion4 {
@@ -625,6 +620,47 @@ section.seccion8ParteDos > article > ul > li > img
 
 
     /*-- Estilos responsive para seccion 8 --*/
+
+    section.seccion8
+    {
+        height: 150vh;
+        background-color: #623E2A;
+        display: grid;
+        grid-template-rows: 10% 90%;
+    }
+    section.seccion7
+    {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        background-color: #91713C;
+        background-image: none;
+    }
+
+    section.seccion7ParteUno
+    {
+
+        background-image: linear-gradient(rgba(145,113,60, 0.5), rgba(145,113,60, 0.5)),url("/img/fondoSeccion7.JPG");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    section.seccion7ParteDos
+    {
+       text-align: justify;  
+       padding-top: 5%; 
+    }
+
+    section.seccion8ParteUno > h2
+    {
+        padding: 0;
+    }
+
+    section.seccion8ParteDos
+    {
+        display: grid;
+        grid-template-rows: 33.33333% 33.33333% 33.33333%;
+        grid-template-columns: none;
+    }
 
     section.seccion8
     {
