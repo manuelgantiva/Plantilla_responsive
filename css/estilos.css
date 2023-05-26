@@ -24,6 +24,22 @@ html {
     box-sizing: inherit;
 }
 
+a:link, a:visited {
+    background-color: #CB6CE6;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 25%;
+    color: #000000;
+    cursor: auto;
+
+}
+
+a:hover, a:active {
+    background-color: #9A40B4;
+}
+
+
 body{
     background-color: #000000;
 }
@@ -35,14 +51,32 @@ section{
 /*-- Estilos para el div header --*/
 
 header{
-    height: 100vh;
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+}
+header article a{
+    margin: 0vh 2vh;
+}
+
+header article{
+    display: flex;
+    justify-content: space-between;
 }
 
 /*-- Estilos para seccion 1 --*/
 
 section.seccion1{
+    display: flex;
+    justify-content: space-around;
 }
 
+section.seccion1 article{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 /*-- Estilos para seccion 2 --*/
 
 section.seccion2{
@@ -268,7 +302,7 @@ footer{
 /*-- Estilos responsive para el div header --*/
 
     header{
-        height: 100vh;
+        height: 20vh;
     }
 
 /*-- Estilos responsive para la seccion 1 --*/
