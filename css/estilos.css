@@ -141,12 +141,12 @@ section.seccion2 > figure > img {
 
 section.seccion2 > a {
     margin-right: 70%;
-    font-family: 'Montserrar', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     background-color: #CB6CE6;
     padding-top: 2vh;
     color: #000000;
     height: 4vh;
-    width: 20vh;
+    width: fit-content;
     border-radius: 40%;
     text-align: center;
     align-self: center;
@@ -207,6 +207,33 @@ section.seccion3 > aside > div > p {
 /*-- Estilos para seccion 4 --*/
 
 section.seccion4{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.seccion4 > figure {
+    align-self: center;
+}
+
+section.seccion4 > figure > img {
+    width: 30vh;
+    height: 30vh;
+}
+
+section.seccion4 > h2 {
+    align-self: center;
+    max-width: 80vh;
+    text-align: center;
+    font-size: 300%;
+}
+
+section.seccion4 > p {
+    align-self: center;
+    font-weight: lighter;
+    font-size: medium;
+    max-width: fit-content;
 }
 
 /*-- Estilos para seccion 5 --*/
