@@ -593,11 +593,55 @@ section.seccion8ParteDos > article > ul > li > img
     }
 
 
-    /*-- Estilos responsive para seccion 6 --*/
+    
 
-    section.seccion6{
-        height: 100vh;
-        background-color: lightslategray;
+/*-- Estilos responsive para seccion 6 --*/
+   section.seccion6 h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    section.seccion6 card-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 110px;
+        margin-right: auto;
+    }
+
+    .card2 img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .text-box2 {
+        margin-top: 10px;
+        border: 1px solid #623E2A;
+        color: #623E2A;
+        height: 50px;
+    }
+
+    .seccion6 h3 {
+        margin-top: 4px;
+        font-size: 9px;
+    }
+    .seccion6 p {
+        margin: 10px 10px;
+        padding: 0px;
+        font-size: 6px;
+        margin-top: 2px;
+        text-align: center;
     }
 
 
