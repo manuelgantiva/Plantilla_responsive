@@ -53,7 +53,7 @@ section{
 
 header{
     height: 100vh;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
     display: flex;
     height: 10vh;
     justify-content: space-around;
@@ -63,9 +63,17 @@ header article a{
     margin: 0vh 2vh;
 }
 
+header article p{
+    text-decoration: underline;
+    text-decoration-color: #CB6CE6;
+    color: #ffffff;
+    margin: 5px 15px;
+}
+
 header article{
     display: flex;
     justify-content: space-between;
+    min-width: fit-content;
 }
 
 /*-- Estilos para seccion 1 --*/
@@ -79,6 +87,17 @@ section.seccion1 article{
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
+}
+
+section.seccion1 h1{
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 1px;
+    padding: 1px;
+}
+
+section.seccion1 h2{
+    font-weight: lighter;
 }
 /*-- Estilos para seccion 2 --*/
 
