@@ -1,7 +1,15 @@
-
 /*pagina de estilos*/
 
 /*-- Estilos base y rest para toda la pagina --*/
+@font-face {
+    font-family: "FuenteMela2";
+    src: url(../fonts/CatchyMager-Normal.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "FuenteMela";
+    src: url(../fonts/Coco-Gothic-Regular-trial.ttf) format("truetype");
+}
 
 html {
     box-sizing: border-box;
@@ -10,7 +18,7 @@ html {
     scroll-behavior: smooth;
 }
 
-*{
+* {
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -23,138 +31,281 @@ html {
     box-sizing: inherit;
 }
 
-body{
+body {
     background-color: #f5f5f5;
 }
 
 /*-- Estilos para seccion 1 --*/
 
-section.seccion1{
+section.seccion1 {
     height: 100vh;
     background-color: lightcoral;
 }
 
 /*-- Estilos para seccion 2 --*/
 
-section.seccion2{
+section.seccion2 {
     height: 100vh;
     background-color: lightcyan;
 }
 
 /*-- Estilos para seccion 3 --*/
 
-section.seccion3{
+section.seccion3 {
     height: 100vh;
     background-color: lightgreen;
 }
 
-
-
 /*-- Estilos para seccion 4 --*/
 
-section.seccion4{
+section.seccion4 {
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+section.seccion4 h1 {
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    width: 75vh;
+    height: 30vh;
+    font-size: 8vh;
+    color: #623E2A;
+    font-family: "FuenteMela2";
+    margin-left: 15vh;
+}
+
+section.seccion4 aside {
+    margin-top: 15vh;
+    display: flex;
+    width: 117vh;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section.seccion4 img {
+    width: 85vh;
+    height: 50vh;
+}
+
+section.seccion4 p {
+    margin-top: 3vh;
+    display: flex;
+    margin-left: 15vh;
+    margin-bottom: 15vh;
+    color: #623E2A;
+    font-size: 2vh;
+    font-family: "FuenteMela";
+}
+
+section.seccion4 aside2 {
+    margin-left: 35vh;
+    margin-bottom: 15vh;
+    border: 2px double black;
+    display: flex;
+    width: 86vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section.seccion4 p1 {
+    color: #623E2A;
+    font-size: 1.8vh;
+    font-family: "FuenteMela";
+    text-align: center;
+}
 
 /*-- Estilos para seccion 5 --*/
 
-section.seccion5{
+section.seccion5 {
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+section.seccion5 aside {
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 20vh;
+    height: 70vh;
+}
+
+section.seccion5 aside1 {
+    display: flex;
+    margin-top: 7vh;
+    height: 70vh;
+    margin-bottom: 7vh;
+    margin-left: 20vh;
+    margin-right: 8vh;
+}
+
+section.seccion5 p {
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 20vh;
+    margin-bottom: 7vh;
+    width: 53vh;
+    font-family: "FuenteMela";
+    color: #623E2A;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+section.seccion5 p1 {
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 9vh;
+    margin-bottom: 7vh;
+    height: 10vh;
+    width: 103vh;
+    font-family: "FuenteMela";
+    color: #623E2A;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 /*-- Estilos para seccion 6 --*/
 
-section.seccion6{
+section.seccion6 {
     height: 100vh;
     background-color: lightslategray;
 }
-
-
 
 /*-- Estilos para seccion 7 --*/
 
-section.seccion7{
+section.seccion7 {
     height: 100vh;
     background-color: lightslategray;
 }
-
 
 /*-- Estilos para seccion 8 --*/
 
-section.seccion8{
+section.seccion8 {
     height: 100vh;
     background-color: lightslategray;
 }
 
+@media (max-width: 920px) {
+    /* Estilos responsive Mobile */
 
-@media (max-width: 920px){
-/* Estilos responsive Movile */
-
-    
     /*-- Estilos responsive para seccion 1 --*/
-
-    section.seccion1{
-        height: 100vh;
+    section.seccion1 {
         background-color: lightcoral;
     }
 
     /*-- Estilos responsive para seccion 2 --*/
-
-    section.seccion2{
-        height: 100vh;
+    section.seccion2 {
         background-color: lightcyan;
     }
 
     /*-- Estilos responsive para seccion 3 --*/
-
-    section.seccion3{
-        height: 100vh;
+    section.seccion3 {
         background-color: lightgreen;
     }
 
-
-
     /*-- Estilos responsive para seccion 4 --*/
-
-    section.seccion4{
-        height: 100vh;
-        background-color: lightslategray;
+    section.seccion4 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
+    section.seccion4 h1 {
+        margin: 0;
+        font-size: 6vh;
+        text-align: center;
+        width: auto;
+        height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    section.seccion4 aside {
+        margin: 0;
+        width: auto;
+        height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    section.seccion4 img {
+        width: 60vh;
+        height: auto;
+    }
+
+    section.seccion4 p {
+        margin-left: 0;
+        margin-bottom: 5vh;
+        font-size: 1.8vh;
+    }
+
+    section.seccion4 aside2 {
+        margin-left: 0;
+        margin-bottom: 5vh;
+        width: 75vh;
+    }
+
+    section.seccion4 p1 {
+        font-size: 1.6vh;
+    }
 
     /*-- Estilos responsive para seccion 5 --*/
-
-    section.seccion5{
-        height: 100vh;
-        background-color: lightslategray;
+    section.seccion5 {
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
+    section.seccion5 aside,
+    section.seccion5 aside1 {
+        margin: 0;
+        width: auto;
+        height: auto;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+
+    section.seccion5 p {
+        margin-left: 0;
+        margin-bottom: 5vh;
+        width: 75vh;
+        height: auto;
+        font-size: 1.8vh;
+    }
+
+    section.seccion5 p1 {
+        margin-left: 0;
+        margin-bottom: 5vh;
+        width: 75vh;
+        height: auto;
+        font-size: 1.6vh;
+    }
 
     /*-- Estilos responsive para seccion 6 --*/
-
-    section.seccion6{
-        height: 100vh;
+    section.seccion6 {
+        height: auto;
         background-color: lightslategray;
     }
-
-
 
     /*-- Estilos responsive para seccion 7 --*/
-
-    section.seccion7{
-        height: 100vh;
+    section.seccion7 {
+        height: auto;
         background-color: lightslategray;
     }
 
-
     /*-- Estilos responsive para seccion 8 --*/
-
-    section.seccion8{
-        height: 100vh;
+    section.seccion8 {
+        height: auto;
         background-color: lightslategray;
     }
 }
