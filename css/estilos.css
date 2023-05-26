@@ -289,9 +289,26 @@ section.seccion8ParteDos > article > ul > li > img
 
     /*-- Estilos responsive para seccion 7 --*/
 
-    section.seccion7{
-        height: 100vh;
-        background-color: lightslategray;
+    section.seccion7
+    {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        background-color: #91713C;
+        background-image: none;
+    }
+
+    section.seccion7ParteUno
+    {
+
+        background-image: linear-gradient(rgba(145,113,60, 0.5), rgba(145,113,60, 0.5)),url("/img/fondoSeccion7.JPG");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    section.seccion7ParteDos
+    {
+       text-align: justify;  
+       padding-top: 5%; 
     }
 
 
