@@ -1,14 +1,15 @@
+
 /*pagina de estilos*/
 
 /*-- Estilos base y rest para toda la pagina --*/
 @font-face {
-    font-family: "FuenteMela2";
-    src: url(../fonts/CatchyMager-Normal.ttf) format("truetype");
+    font-family: "FuenteMela";
+    src: url(../fonts/Coco-Gothic-Regular-trial.ttf)format("truetype");
 }
 
 @font-face {
-    font-family: "FuenteMela";
-    src: url(../fonts/Coco-Gothic-Regular-trial.ttf) format("truetype");
+    font-family: "FuenteMela2";
+    src: url(../fonts/CatchyMager-Normal.ttf) format("truetype");
 }
 
 html {
@@ -18,7 +19,7 @@ html {
     scroll-behavior: smooth;
 }
 
-* {
+*{
     text-decoration: none;
     list-style: none;
     margin: 0;
@@ -31,41 +32,160 @@ html {
     box-sizing: inherit;
 }
 
-body {
+body{
     background-color: #f5f5f5;
 }
 
 /*-- Estilos para seccion 1 --*/
 
-section.seccion1 {
+section.seccion1{
     height: 100vh;
     background-color: lightcoral;
+    background-image: url(../img/sanchezBg.jpeg);
+    filter: brightness(80%) contrast(100%) saturate(150%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+section.seccion1 hgroup{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.seccion1 h4{
+    font-size: 3.8vh;
+    font-weight: bold;
+    font-family: "FuenteMela", sans-serif;
+}
+section.seccion1 h1{
+    font-size: 20vh;
+    font-weight: 100;
+    font-family: "FuenteMela2", sans-serif;
+}
+section.seccion1 h2{
+    font-size: 8vh;
+    font-weight: 100;
+    font-family: "FuenteMela2", sans-serif;
+}
+section.seccion1 button{
+    color: #623e2a;
+    font-weight: bold;
+    font-size: 2vh;
+    padding: 1.2vh 7vh;
+    font-family: "FuenteMela", sans-serif;
 }
 
 /*-- Estilos para seccion 2 --*/
 
-section.seccion2 {
+section.seccion2{
     height: 100vh;
-    background-color: lightcyan;
+    background-color: #f4f1ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+section.seccion2 h2{
+    font-family: "FuenteMela2", sans-serif;
+    font-size: 11vh;
+    font-weight: lighter;
+    line-height: 0.9;
+    color: #623e2a;
+}
+section.seccion2 p{
+    font-family: "FuenteMela", sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-right: 10vh;
+    line-height: 1.4;
+}
+section.seccion2 article{
+    color: #623e2a;
+    margin: 6vw;
+    align-content: center;
+}
+section.seccion2 img{
+    height: 80vh;
+    width: 60vh;
+    margin-right: 5vw;
+    object-fit: cover;
 }
 
 /*-- Estilos para seccion 3 --*/
 
-section.seccion3 {
+section.seccion3{
     height: 100vh;
-    background-color: lightgreen;
+    background: #EFEBE5;
+}
+.section3{
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    color: #623E2A;
+    font-family: 'Catchy Mager',serif;
 }
 
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2z0px;
+    margin-left: 65px;
+}
+.card img {
+    height: 300 px;
+    width: 250 px;
+}
+.text-box{
+    margin-top: 10px;
+    border:1px solid #623E2A;
+    color: #623E2A;
+    height: 150px;
+}
+.seccion3 h3{
+    margin-top: 20px;
+    margin-left: 15px;
+    font-family: 'Coco Gothic',sans-serif;
+}
+.seccion3 h2{
+    margin-top: 30px;
+    margin-left: 15px;
+    font-family: 'Coco Gothic',serif;
+}
+.seccion3 p{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-family: 'Coco Gothic',serif;
+}
 /*-- Estilos para seccion 4 --*/
 
-section.seccion4 {
+section.seccion4 
+{
     height: 100vh;
     background-color: #f4f1ed;
     display: flex;
     flex-wrap: wrap;
 }
-
-section.seccion4 h1 {
+section.seccion4 h1 
+{
     margin-top: 15vh;
     display: flex;
     align-items: center;
@@ -76,58 +196,59 @@ section.seccion4 h1 {
     font-family: "FuenteMela2";
     margin-left: 15vh;
 }
-
-section.seccion4 aside {
+section.seccion4 aside 
+{
     margin-top: 15vh;
-    display: flex;
+    display:flex;
     width: 117vh;
     height: 55vh;
     justify-content: center;
     align-items: center;
-}
 
-section.seccion4 img {
+}
+section.seccion4 img 
+{
     width: 85vh;
     height: 50vh;
 }
-
-section.seccion4 p {
+section.seccion4 p
+{
     margin-top: 3vh;
     display: flex;
     margin-left: 15vh;
     margin-bottom: 15vh;
     color: #623E2A;
     font-size: 2vh;
-    font-family: "FuenteMela";
+    font-family:"FuenteMela";
 }
-
-section.seccion4 aside2 {
+section.seccion4 aside2
+{
     margin-left: 35vh;
     margin-bottom: 15vh;
     border: 2px double black;
-    display: flex;
+    display:flex;
     width: 86vh;
     justify-content: center;
     align-items: center;
-}
 
-section.seccion4 p1 {
+}
+section.seccion4 p1
+{
     color: #623E2A;
     font-size: 1.8vh;
-    font-family: "FuenteMela";
+    font-family:"FuenteMela";
     text-align: center;
 }
-
 /*-- Estilos para seccion 5 --*/
 
-section.seccion5 {
+section.seccion5{
     height: 100vh;
     background-color: #f4f1ed;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;  
 }
-
-section.seccion5 aside {
+section.seccion5 aside
+{
     display: flex;
     margin-top: 7vh;
     margin-left: 2vh;
@@ -135,37 +256,39 @@ section.seccion5 aside {
     margin-right: 20vh;
     height: 70vh;
 }
-
-section.seccion5 aside1 {
+section.seccion5 aside1
+{
     display: flex;
     margin-top: 7vh;
     height: 70vh;
     margin-bottom: 7vh;
     margin-left: 20vh;
     margin-right: 8vh;
+    
 }
 
-section.seccion5 p {
+section.seccion5 p 
+{
     display: flex;
     border: 2px double #623E2A;
     margin-left: 20vh;
     margin-bottom: 7vh;
     width: 53vh;
-    font-family: "FuenteMela";
+    font-family:"FuenteMela";
     color: #623E2A;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
-
-section.seccion5 p1 {
+section.seccion5 p1
+{
     display: flex;
     border: 2px double #623E2A;
     margin-left: 9vh;
     margin-bottom: 7vh;
     height: 10vh;
     width: 103vh;
-    font-family: "FuenteMela";
+    font-family:"FuenteMela";
     color: #623E2A;
     align-items: center;
     text-align: center;
@@ -174,109 +297,389 @@ section.seccion5 p1 {
 
 /*-- Estilos para seccion 6 --*/
 
-section.seccion6 {
+section.seccion6{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #EFEBE5;
 }
+.seccion6{
+    text-align: center;
+}
+.seccion6 h1{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 50px;
+    color: #623E2A;
+    font-family: 'Catchy Mager',serif;
+}
+.card-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-right: 130px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+.card2 img {
+    height: 300 px;
+    width: 250 px;
+}
+.text-box2{
+    margin-top: 10px;
+    border:1px solid #623E2A;
+    color: #623E2A;
+    height: 150px;
+}
+
+.seccion6 h3{
+    margin-top: 20px;
+    font-family: 'Coco Gothic',sans-serif;
+    
+}
+
+.seccion6 p{
+    margin: 10px 25px 10px 50px;
+    padding: 0px 10px 0 5px;
+    text-align: left;
+}
+
 
 /*-- Estilos para seccion 7 --*/
 
-section.seccion7 {
+section.seccion7
+{
     height: 100vh;
-    background-color: lightslategray;
+    background-image: linear-gradient(rgba(145,113,60, 0.5), rgba(145,113,60, 0.5)),url("/img/fondoSeccion7.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
+section.seccion7ParteUno
+{
+    color: #fff;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section.seccion7ParteDos
+{
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333%  33.33333% ;
+    color: #fff;
+    font-size: 12px;
+}
+section.seccion7ParteDos > article
+{
+    padding: 0% 10%;
+}
+
+
+article > img , p
+{
+    margin: 0 0 10% 0;
+}
+
+
+section.seccion7ParteDos > article >:nth-child(3n)
+{
+    font-weight: bold;
+}
+
+
+section.seccion7ParteDos > article > img
+{
+    width: 30px;
+    height: 20px;
+}
+
+
 
 /*-- Estilos para seccion 8 --*/
 
-section.seccion8 {
+section.seccion8
+{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #623E2A;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    
 }
 
-@media (max-width: 920px) {
-    /* Estilos responsive Mobile */
+section.seccion8ParteUno
+{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+}
 
+section.seccion8ParteUno > h2
+{
+    padding: 0 0 0 5%;
+}
+
+section.seccion8ParteDos
+{
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333% 33.33333%;
+}
+
+section.seccion8ParteDos > article
+{
+    margin: 0 10%;
+}
+
+section.seccion8ParteDos > article
+{
+    color: #fff;
+}
+
+section.seccion8ParteDos > article > ul > h3, section.seccion8ParteDos > article > div > h3
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+section.seccion8ParteDos > article > ul > li , section.seccion8ParteDos > article > ul > h3 , section.seccion8ParteDos > article > div > h3
+{
+    display: flex;
+    align-items: center;
+    margin: 5% 6%;
+}
+
+section.seccion8ParteDos > article > ul 
+{
+    width: 100%;
+    height: 50%;
+    border: 1px solid #fff;
+}
+
+section.seccion8ParteDos > article > div
+{
+    width: 100%;
+    height: 50%;
+    border: 1px solid #fff;
+}
+
+section.seccion8ParteDos > article > div > span
+{
+    display: grid;
+    grid-template-columns: 20% 20% 20%;
+}
+
+section.seccion8ParteDos > article > div > span 
+{
+    margin: 5% 6%;
+}
+
+section.seccion8ParteDos > article > div > span >img
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    padding: 20px;
+}
+
+section.seccion8ParteDos > article > div > button
+{
+    margin: 5% 6%;
+    background-color: #623E2A;
+    border: 1px solid #fff;
+    border-radius: 22.5px;
+    color: #fff;
+    font-style: italic;
+    width: 88%;
+    height: 45px;   
+}
+
+section.seccion8ParteDos > article > ul > li > img
+{
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (max-width: 920px){
+/* Estilos responsive Movile */
+
+    
     /*-- Estilos responsive para seccion 1 --*/
-    section.seccion1 {
+
+    section.seccion1{
+        height: 100vh;
         background-color: lightcoral;
     }
 
     /*-- Estilos responsive para seccion 2 --*/
-    section.seccion2 {
+
+    section.seccion2{
+        height: 100vh;
         background-color: lightcyan;
     }
 
     /*-- Estilos responsive para seccion 3 --*/
-    section.seccion3 {
-        background-color: lightgreen;
+
+    section.seccion3{
+        height: 100vh;
+        background-color: black;
+    }
+    
+
+
+    /*-- Estilos responsive para seccion 4 --*/
+    section.seccion4 {
+        flex-direction: column;
     }
 
-    @media (max-width: 920px) {
-        section.seccion4 {
-            flex-direction: column;
-        }
-    
-        section.seccion4 h1,
-        section.seccion4 aside,
-        section.seccion4 aside2,
-        section.seccion4 p,
-        section.seccion4 p1 {
-            margin: 0;
-            width: 75vh;
-            text-align: center;
-        }
-    
-        section.seccion4 h1 {
-            font-size: 6vh;
-            margin-bottom: 2vh;
-        }
-    
-        section.seccion4 img {
-            width: 60vh;
-            height: auto;
-        }
-    
-        section.seccion4 p {
-            font-size: 1.8vh;
-            margin-top: 2vh;
-            margin-bottom: 2vh;
-        }
-    
-        section.seccion4 aside2 {
-            margin-top: 2vh;
-            margin-bottom: 2vh;
-            width: 70vh;
-        }
-    
-        section.seccion4 p1 {
-            font-size: 1.6vh;
-        }
-    
-        section.seccion5 aside,
-        section.seccion5 aside1 {
-            margin: 2vh;
-        }
-    
-        section.seccion5 p,
-        section.seccion5 p1 {
-            margin: 2vh;
-        }
+    section.seccion4 h1,
+    section.seccion4 aside,
+    section.seccion4 aside2,
+    section.seccion4 p,
+    section.seccion4 p1 {
+        margin: 0;
+        width: 75vh;
+        text-align: center;
     }
-    /*-- Estilos responsive para seccion 6 --*/
-    section.seccion6 {
+
+    section.seccion4 h1 {
+        font-size: 6vh;
+        margin-bottom: 2vh;
+    }
+
+    section.seccion4 img {
+        width: 60vh;
         height: auto;
+    }
+
+    section.seccion4 p {
+        font-size: 1.8vh;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    section.seccion4 aside2 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        width: 70vh;
+    }
+
+    section.seccion4 p1 {
+        font-size: 1.6vh;
+    }
+
+    section.seccion5 aside,
+    section.seccion5 aside1 {
+        margin: 2vh;
+    }
+
+    section.seccion5 p,
+    section.seccion5 p1 {
+        margin: 2vh;
+    }
+
+    /*-- Estilos responsive para seccion 6 --*/
+
+    section.seccion6{
+        height: 100vh;
         background-color: lightslategray;
     }
+
+
 
     /*-- Estilos responsive para seccion 7 --*/
-    section.seccion7 {
-        height: auto;
-        background-color: lightslategray;
+
+    section.seccion7
+    {
+        display: grid;
+        grid-template-rows: 40% 60%;
+        background-color: #91713C;
+        background-image: none;
     }
 
+    section.seccion7ParteUno
+    {
+
+        background-image: linear-gradient(rgba(145,113,60, 0.5), rgba(145,113,60, 0.5)),url("/img/fondoSeccion7.JPG");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    section.seccion7ParteDos
+    {
+       text-align: justify;  
+       padding-top: 5%; 
+    }
+
+
     /*-- Estilos responsive para seccion 8 --*/
-    section.seccion8 {
-        height: auto;
-        background-color: lightslategray;
+
+    section.seccion8
+    {
+        height: 150vh;
+        background-color: #623E2A;
+        display: grid;
+        grid-template-rows: 10% 90%;
+    }
+
+    section.seccion8ParteUno
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.seccion8ParteUno > h2
+    {
+        padding: 0;
+    }
+
+    section.seccion8ParteDos
+    {
+        display: grid;
+        grid-template-rows: 33.33333% 33.33333% 33.33333%;
+        grid-template-columns: none;
+    }
+
+    section.seccion8ParteDos > article
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    section.seccion8ParteDos > article > ul 
+    {
+        width: 65%;
+        height: 90%;
+        border: 1px solid #fff;
+        display: grid;
+
+    }
+
+    section.seccion8ParteDos > article > ul > li , section.seccion8ParteDos > article > ul > h3 , section.seccion8ParteDos > article > div > h3
+    {
+        margin: 1% 6%;
+    }
+
+    section.seccion8ParteDos > article > div
+    {
+        width: 65%;
+        height: 65%;
+        border: 1px solid #fff;
+    }
+
+    section.seccion8ParteDos > article > div > span
+    {
+        display: grid;
+        grid-template-columns: 33.33333% 33.33333% 33.33333%;
     }
 }
