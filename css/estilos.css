@@ -122,6 +122,52 @@ section.seccion2 > a {
 /*-- Estilos para seccion 3 --*/
 
 section.seccion3{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    max-height: 98vh;
+}
+
+section.seccion3 > h2 {
+    font-size: 300%;
+    max-width: 40vh;
+    padding-left: 20vh;
+    padding-top: 30vh;
+}
+
+section.seccion3 > aside {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    justify-content: space-evenly;
+    max-width: 40vh;
+}
+
+section.seccion3 > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section.seccion3 > aside > div > figure > img {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10vh;
+    width: 8vh;
+    height: 8vh;
+    margin-right: 3vh;
+    align-self: flex-end;
+}
+
+section.seccion3 > aside > div > h4 {
+    display: flex;
+    padding-left: 25vh;
+}
+
+section.seccion3 > aside > div > p {
+    display: flex;
+    padding-left: 25vh;
 }
 
 /*-- Estilos para seccion 4 --*/
