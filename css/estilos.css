@@ -77,10 +77,56 @@ section.seccion6{
 
 /*-- Estilos para seccion 7 --*/
 
-section.seccion7{
+section.seccion7
+{
     height: 100vh;
-    background-color: lightslategray;
+    background-image: linear-gradient(rgba(145,113,60, 0.5), rgba(145,113,60, 0.5)),url("/img/fondoSeccion7.JPG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
 }
+section.seccion7ParteUno
+{
+    color: #fff;
+    display: flex;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+section.seccion7ParteDos
+{
+    display: grid;
+    grid-template-columns: 33.33333% 33.33333%  33.33333% ;
+    color: #fff;
+    font-size: 12px;
+}
+section.seccion7ParteDos > article
+{
+    padding: 0% 10%;
+}
+
+
+article > img , p
+{
+    margin: 0 0 10% 0;
+}
+
+
+section.seccion7ParteDos > article >:nth-child(3n)
+{
+    font-weight: bold;
+}
+
+
+section.seccion7ParteDos > article > img
+{
+    width: 30px;
+    height: 20px;
+}
+
 
 
 /*-- Estilos para seccion 8 --*/
