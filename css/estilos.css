@@ -526,11 +526,51 @@ section.seccion8ParteDos > article > ul > li > img
     }
 
     /*-- Estilos responsive para seccion 3 --*/
+    section.seccion3 h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
 
-    section.seccion3{
-        height: 100vh;
-        background-color: black;
-  }
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 20px;
+        margin-left: 110px;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .text-box {
+        height: 50px;
+        margin-top: 10px;
+        border: 1px solid #623E2A;
+    }
+
+    .seccion3 h3 {
+        margin-top: 5px;
+        font-size: 8px;
+    }
+
+    .seccion3 h2 {
+        margin-top: 4px;
+        font-size: 10px;
+    }
+
+    .seccion3 p {
+        padding: 0px;
+        font-size: 8px;
+        margin-top: 7px;
+    }
 
    /* Estilos responsive para seccion 4 */
   section.seccion4 {
@@ -585,11 +625,55 @@ section.seccion8ParteDos > article > ul > li > img
   }
 
 
-    /*-- Estilos responsive para seccion 6 --*/
+    
 
-    section.seccion6{
-        height: 100vh;
-        background-color: lightslategray;
+/*-- Estilos responsive para seccion 6 --*/
+   section.seccion6 h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    section.seccion6 card-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    .card2 {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 110px;
+        margin-right: auto;
+    }
+
+    .card2 img {
+        height: 130px;
+        width: 100%;
+    }
+
+    .text-box2 {
+        margin-top: 10px;
+        border: 1px solid #623E2A;
+        color: #623E2A;
+        height: 50px;
+    }
+
+    .seccion6 h3 {
+        margin-top: 4px;
+        font-size: 9px;
+    }
+    .seccion6 p {
+        margin: 10px 10px;
+        padding: 0px;
+        font-size: 6px;
+        margin-top: 2px;
+        text-align: center;
     }
 
 
