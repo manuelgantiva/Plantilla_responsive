@@ -516,10 +516,27 @@ section.seccion8ParteDos > article > ul > li > img
     
     /*-- Estilos responsive para seccion 1 --*/
 
-    section.seccion1{
-        height: 100vh;
-        background-color: lightcoral;
-    }
+        section.seccion1 {
+        padding: 5vw;
+        }
+    
+        section.seccion1 h4 {
+        font-size: 4vw;
+        }
+    
+        section.seccion1 h1 {
+        font-size: 12vw;
+        }
+    
+        section.seccion1 h2 {
+        font-size: 5vw;
+        }
+    
+        section.seccion1 button {
+        font-size: 2vw;
+        padding: 2vw 10vw;
+        }
+  
 
     /*-- Estilos responsive para seccion 2 --*/
 
