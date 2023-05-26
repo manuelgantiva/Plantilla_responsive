@@ -513,17 +513,60 @@ section.seccion8ParteDos > article > ul > li > img
     
     /*-- Estilos responsive para seccion 1 --*/
 
-    section.seccion1{
-        height: 100vh;
-        background-color: lightcoral;
-    }
+        section.seccion1 {
+        padding: 5vw;
+        }
+    
+        section.seccion1 h4 {
+        font-size: 4vw;
+        }
+    
+        section.seccion1 h1 {
+        font-size: 12vw;
+        }
+    
+        section.seccion1 h2 {
+        font-size: 5vw;
+        }
+    
+        section.seccion1 button {
+        font-size: 2vw;
+        padding: 2vw 10vw;
+        }
+  
 
     /*-- Estilos responsive para seccion 2 --*/
 
-    section.seccion2{
-        height: 100vh;
-        background-color: lightcyan;
-    }
+        section.seccion2 {
+          padding: 5vh;
+          flex-direction: column;
+          align-items: center;
+        }
+        
+        section.seccion2 h2 {
+          font-size: 6vh;
+          text-align: center;
+          margin-bottom: 2vh;
+        }
+        
+        section.seccion2 p {
+          font-size: 2.5vh;
+          text-align: center;
+          margin: 0;
+        }
+        
+        section.seccion2 article {
+          margin: 4vh 0;
+          text-align: center;
+        }
+        
+        section.seccion2 img {
+          height: 50vh;
+          width: 70vw;
+          margin: 2vh auto;
+          object-fit: cover;
+        }
+      
 
     /*-- Estilos responsive para seccion 3 --*/
     section.seccion3 h1 {

@@ -19,12 +19,23 @@
                     <h1>The Wellhall</h1>
                     <h2>Resort & Spa Hotel</h2>
                 </hgroup>
-                <button>LEARN MORE</button>
+                <button id="cambia">LEARN MORE</button>
+                <script>
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const IrSeccion2 = document.getElementById('cambia');
+                        const sec2 = document.getElementById('s2');
+                        
+                        IrSeccion2.addEventListener('click', () => {
+                            sec2.scrollIntoView({ behavior: 'smooth' });
+                        });
+                    });
+
+                </script>
             </section>
 
 
          <!--Esta seccion será trabajada por Sánchez-->
-            <section class="seccion2">
+            <section class="seccion2" id="s2">
                 <article>
                     <h2>Welcome to your luxurious home away from home</h2>
                     <br><br><br>
