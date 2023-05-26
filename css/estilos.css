@@ -2,6 +2,15 @@
 /*pagina de estilos*/
 
 /*-- Estilos base y rest para toda la pagina --*/
+@font-face {
+    font-family: "FuenteMela";
+    src: url(../fonts/CocoGothic_trial.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "FuenteMela2";
+    src: url(../fonts/CatchyMager-Normal.ttf) format("truetype");
+}
 
 html {
     box-sizing: border-box;
@@ -32,13 +41,81 @@ body{
 section.seccion1{
     height: 100vh;
     background-color: lightcoral;
+    background-image: url(../img/sanchezBg.jpeg);
+    filter: brightness(80%) contrast(100%) saturate(150%);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+}
+section.seccion1 hgroup{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section.seccion1 h4{
+    font-size: 3.8vh;
+    font-weight: bold;
+    font-family: "FuenteMela", sans-serif;
+}
+section.seccion1 h1{
+    font-size: 20vh;
+    font-weight: 100;
+    font-family: "FuenteMela2", sans-serif;
+}
+section.seccion1 h2{
+    font-size: 8vh;
+    font-weight: 100;
+    font-family: "FuenteMela2", sans-serif;
+}
+section.seccion1 button{
+    color: #623e2a;
+    font-weight: bold;
+    font-size: 2vh;
+    padding: 1.2vh 7vh;
+    font-family: "FuenteMela", sans-serif;
 }
 
 /*-- Estilos para seccion 2 --*/
 
 section.seccion2{
     height: 100vh;
-    background-color: lightcyan;
+    background-color: #f4f1ed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+section.seccion2 h2{
+    font-family: "FuenteMela2", sans-serif;
+    font-size: 11vh;
+    font-weight: lighter;
+    line-height: 0.9;
+    color: #623e2a;
+}
+section.seccion2 p{
+    font-family: "FuenteMela", sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    margin-right: 10vh;
+    line-height: 1.4;
+}
+section.seccion2 article{
+    color: #623e2a;
+    margin: 6vw;
+    align-content: center;
+}
+section.seccion2 img{
+    height: 80vh;
+    width: 60vh;
+    margin-right: 5vw;
+    object-fit: cover;
 }
 
 /*-- Estilos para seccion 3 --*/
