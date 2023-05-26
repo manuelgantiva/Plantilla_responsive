@@ -37,16 +37,50 @@ section.Header {
     font-family: "TT Interphases", sans-serif;
     color: #f5f5f5;
 }
+section.Header > nav{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 80px;
+}
 section.Header > nav > h1{
     font-size: 13.7px; 
 }
-section.Header > header > h1{
+section.Header > header > article{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    position: relative;
+}   
+section.Header > header > article >img.img1{
+    position: absolute;
+    bottom: 20px;
+    transform: rotate(135deg);
+}
+section.Header > header > article >img.img2{
+    position: absolute;
+    left:10px;  
+    top:-50px;
+}
+section.Header > header{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+section.Header > header > article > h1{
     font-family: "Lastica", sans-serif;
     font-size: 56px;  
 }
-section.Header > header > h4{
+section.Header > header > article > h4{
     font-size: 26px;
+    display: flex;
+    align-self: baseline;
+    padding: 80px;
+    padding-top: 0%;
 }
+
 
 
 /*-- Estilos para seccion 1 --*/
@@ -78,13 +112,30 @@ section.seccion4{
     font-family: "TT Interphases", sans-serif;
     font-size: 14px;
     color: #f5f5f5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 section.seccion4 > h2{
     font-family: "Lastica", sans-serif;
     font-size: 36px;
 }
+section.seccion4 >section> article{
+    display: flex;
+    flex-direction: column;
+    border-color: #f5f5f5;
+    border-style: solid;
+    padding: 20px;
+}
+section.seccion4 > section{
+    justify-self: center;
+    width: 40%;
+   display: flex;
+   justify-content: space-evenly; 
+   flex-direction: column;
+}
 
-section.seccion4 > h5{
+section.seccion4 >section> article > h5{
     color: #D73CBE;
 }
 /*-- Estilos para seccion 5 --*/
@@ -102,6 +153,14 @@ footer{
     color:#f5f5f5;
     font-family: "TT Interphases", sans-serif;
     font-size: 18px;
+    display: flex;
+}
+footer > article{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    row-gap: 40px;
+    padding: 20px;
 }
 footer > h3{
     font-family: "Lastica", sans-serif;
