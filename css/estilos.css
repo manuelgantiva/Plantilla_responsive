@@ -537,56 +537,58 @@ section.seccion8ParteDos > article > ul > li > img
     
 
 
-    /*-- Estilos responsive para seccion 4 --*/
-    section.seccion4 {
-        flex-direction: column;
-    }
+   /* Estilos responsive para seccion 4 */
+  section.seccion4 {
+    flex-direction: column;
+  }
 
-    section.seccion4 h1,
-    section.seccion4 aside,
-    section.seccion4 aside2,
-    section.seccion4 p,
-    section.seccion4 p1 {
-        margin: 0;
-        width: 75vh;
-        text-align: center;
-    }
+  section.seccion4 h1,
+  section.seccion4 aside,
+  section.seccion4 aside2,
+  section.seccion4 p,
+  section.seccion4 p1 {
+    margin: 0;
+    width: 75vh;
+    text-align: center;
+  }
 
-    section.seccion4 h1 {
-        font-size: 6vh;
-        margin-bottom: 2vh;
-    }
+  section.seccion4 h1 {
+    font-size: 6vh;
+    margin-bottom: 2vh;
+  }
 
-    section.seccion4 img {
-        width: 60vh;
-        height: auto;
-    }
+  section.seccion4 img {
+    width: 60vh;
+    height: auto;
+  }
 
-    section.seccion4 p {
-        font-size: 1.8vh;
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-    }
+  section.seccion4 p {
+    font-size: 1.8vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+  }
 
-    section.seccion4 aside2 {
-        margin-top: 2vh;
-        margin-bottom: 2vh;
-        width: 70vh;
-    }
+  section.seccion4 aside2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 70vh;
+  }
 
-    section.seccion4 p1 {
-        font-size: 1.6vh;
-    }
+  section.seccion4 p1 {
+    font-size: 1.6vh;
+  }
 
-    section.seccion5 aside,
-    section.seccion5 aside1 {
-        margin: 2vh;
-    }
+  /* Estilos responsive para seccion 5 */
+  section.seccion5 aside,
+  section.seccion5 aside1 {
+    margin: 2vh;
+  }
 
-    section.seccion5 p,
-    section.seccion5 p1 {
-        margin: 2vh;
-    }
+  section.seccion5 p,
+  section.seccion5 p1 {
+    margin: 2vh;
+  }
+
 
     /*-- Estilos responsive para seccion 6 --*/
 
