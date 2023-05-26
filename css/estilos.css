@@ -4,7 +4,7 @@
 /*-- Estilos base y rest para toda la pagina --*/
 @font-face {
     font-family: "FuenteMela";
-    src: url(../fonts/CocoGothic_trial.ttf) format("truetype");
+    src: url(../fonts/Coco-Gothic-Regular-trial.ttf)format("truetype");
 }
 
 @font-face {
@@ -129,19 +129,123 @@ section.seccion3{
 
 /*-- Estilos para seccion 4 --*/
 
-section.seccion4{
+section.seccion4 
+{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;
 }
+section.seccion4 h1 
+{
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    width: 75vh;
+    height: 30vh;
+    font-size: 8vh;
+    color: #623E2A;
+    font-family: "FuenteMela2";
+    margin-left: 15vh;
+}
+section.seccion4 aside 
+{
+    margin-top: 15vh;
+    display:flex;
+    width: 117vh;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
 
+}
+section.seccion4 img 
+{
+    width: 85vh;
+    height: 50vh;
+}
+section.seccion4 p
+{
+    margin-top: 3vh;
+    display: flex;
+    margin-left: 15vh;
+    margin-bottom: 15vh;
+    color: #623E2A;
+    font-size: 2vh;
+    font-family:"FuenteMela";
+}
+section.seccion4 aside2
+{
+    margin-left: 35vh;
+    margin-bottom: 15vh;
+    border: 2px double black;
+    display:flex;
+    width: 86vh;
+    justify-content: center;
+    align-items: center;
 
+}
+section.seccion4 p1
+{
+    color: #623E2A;
+    font-size: 1.8vh;
+    font-family:"FuenteMela";
+    text-align: center;
+}
 /*-- Estilos para seccion 5 --*/
 
 section.seccion5{
     height: 100vh;
-    background-color: lightslategray;
+    background-color: #f4f1ed;
+    display: flex;
+    flex-wrap: wrap;  
+}
+section.seccion5 aside
+{
+    display: flex;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    margin-bottom: 7vh;
+    margin-right: 20vh;
+    height: 70vh;
+}
+section.seccion5 aside1
+{
+    display: flex;
+    margin-top: 7vh;
+    height: 70vh;
+    margin-bottom: 7vh;
+    margin-left: 20vh;
+    margin-right: 8vh;
+    
 }
 
+section.seccion5 p 
+{
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 20vh;
+    margin-bottom: 7vh;
+    width: 53vh;
+    font-family:"FuenteMela";
+    color: #623E2A;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+section.seccion5 p1
+{
+    display: flex;
+    border: 2px double #623E2A;
+    margin-left: 9vh;
+    margin-bottom: 7vh;
+    height: 10vh;
+    width: 103vh;
+    font-family:"FuenteMela";
+    color: #623E2A;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 
 /*-- Estilos para seccion 6 --*/
 
