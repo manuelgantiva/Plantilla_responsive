@@ -46,11 +46,14 @@ body{
 
 section{
     height: 100vh;
+    font-family: 'Montserrat', sans-serif
 }
 
 /*-- Estilos para el div header --*/
 
 header{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif
     display: flex;
     height: 10vh;
     justify-content: space-around;
