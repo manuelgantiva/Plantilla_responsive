@@ -46,6 +46,77 @@ section.seccion1{
 /*-- Estilos para seccion 2 --*/
 
 section.seccion2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-height: 98vh;
+}
+
+section.seccion2 > article {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.seccion2 > article > p:nth-child(1), p:nth-child(3) {
+    max-width: 25vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    font-size: 120%;
+}
+
+section.seccion2 > article > p:nth-child(2) {
+    max-width: 25vh;
+    font-size: 120%;
+}
+
+section.seccion2 > h2:nth-child(2) {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 350%;
+    width: 174vh;
+    text-align: start;
+}
+
+section.seccion2 > h2:nth-child(3), h2:nth-child(5) {
+    padding-left: 10vh;
+    padding-right: 10vh;
+    width: 50vh;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: space-evenly;
+    font-size: 390%;
+    text-align: center;
+}
+
+section.seccion2 > h2:nth-child(4) {
+    width: 50vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 390%;
+    text-align: center;
+}
+
+section.seccion2 > figure > img {
+    padding-top: 3vh;
+    padding-left: 5vh;
+    height: 8vh;
+    width: 10vh;
+}
+
+section.seccion2 > a {
+    margin-right: 70%;
+    font-family: 'Montserrar', sans-serif;
+    background-color: #CB6CE6;
+    padding-top: 2vh;
+    color: #000000;
+    height: 4vh;
+    width: 20vh;
+    border-radius: 40%;
+    text-align: center;
+    align-self: center;
+    flex-wrap: wrap;
 }
 
 /*-- Estilos para seccion 3 --*/
